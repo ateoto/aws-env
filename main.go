@@ -13,6 +13,7 @@ import (
 func main() {
 	app := cli.NewApp()
 	app.Name = "aws-env"
+	app.Version = "0.0.1"
 	app.Usage = "Set AWS EnvVars from .aws/config file"
 
 	app.Flags = []cli.Flag{
